@@ -4,9 +4,9 @@ TAKEN:
 
 kyano
 1
-De actuele buiten temperatuur(done in figma)
+De actuele buiten temperatuur
 2
-Buiten- en binnentemperatuur(done in figma)
+Buiten- en binnentemperatuur
 3
 Ik kan op het dashboard zien of een lamp, in het huisje, aan of uit is.
 Ik kan via het dashboard een lamp, in het huisje, aan of uit zetten.
@@ -15,9 +15,9 @@ Ik kan als het een bepaalde tijd is een lamp, in het huisje, uit of aan laten ga
 
 ian
 1
-De weersverwachting(done in figma)
+De weersverwachting
 2
-Opbrengst energie van zonnepanelen(done in figma)
+Opbrengst energie van zonnepanelen
 3
 Ik kan op het dashboard zien of een lamp, in het huisje, aan of uit is.
 Ik kan via het dashboard een lamp, in het huisje, aan of uit zetten.
@@ -26,7 +26,7 @@ Ik kan als het een bepaalde tijd is een lamp, in het huisje, uit of aan laten ga
 
 deon
 1
-De zonsopkomst en zonsondergang(done in figma)
+De zonsopkomst en zonsondergang
 2
 Energieverbruik
 3
