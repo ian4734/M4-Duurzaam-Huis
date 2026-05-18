@@ -35,10 +35,7 @@ Ik kan via het dashboard een lamp, in het huisje, aan of uit zetten.
 Ik kan als het een bepaalde tijd is een lamp, in het huisje, uit of aan laten gaan
 (doen we allemaal samen) 
 
-
-
-
-
+CODE ARDUINO:
 const int  trigPin = 2;
 const int echoPin = 4;
 const int buzzerPin = 13;
