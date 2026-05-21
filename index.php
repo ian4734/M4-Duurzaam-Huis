@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+     <?php include 'index.html';?>
 </body>
 </html>
