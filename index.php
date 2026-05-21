@@ -6,8 +6,9 @@
     <title>Dashboard-Duurzaam</title>
 </head>
 <body>
-     <?php include 'header.html';?>
-          <?php include 'main.html';?>
-               <?php include 'footer.html';?>
+     <?php include 'header.php';?>
+          <?php include 'main.php';?>
+               <?php include 'footer.php';?>
+               <?php include 'sidebar.php';?>
 </body>
 </html>
