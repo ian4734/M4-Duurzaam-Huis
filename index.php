@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard-Duurzaam</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <?php include 'header.php';?>
-          <?php include 'main.php';?>
-               <?php include 'footer.php';?>
-               <?php include 'sidebar.php';?>
+    <div class="parent">
+    <div class="div1">1</div>
+    <div class="div2">2</div>
+    <div class="div3">3</div>
+    <div class="div4">4</div>
+    <div class="div5">5</div>
+    <div class="div6">6</div>
+    <div class="div12">12</div>
+    <div class="div13">13</div>
+</div>
 </body>
 </html>
