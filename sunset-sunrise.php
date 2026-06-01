@@ -472,5 +472,7 @@ $displayDate = date('l, F j, Y', strtotime($date));
   </div>
 </div>
  
+
+<footer>deon</footer>
 </body>
 </html>
