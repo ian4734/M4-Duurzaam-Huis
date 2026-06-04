@@ -26,7 +26,7 @@ Ik kan als het een bepaalde tijd is een lamp, in het huisje, uit of aan laten ga
 
 deon
 1
-De zonsopkomst en zonsondergang
+De zonsopkomst en zonsondergang (heb ik af)
 2
 Energieverbruik
 3
