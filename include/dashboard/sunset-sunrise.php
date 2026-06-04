@@ -67,9 +67,6 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     text-align: center;
   }
 
-
-
-
 </style>
 
 <div class="wrap">
@@ -186,4 +183,3 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
   <p> deon </p>
 </footer>
 </html>
-
