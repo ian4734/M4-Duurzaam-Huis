@@ -83,6 +83,20 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     margin-top: .75rem;
     text-align: center;
   }
+
+  footer {
+    display:flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 </style>
 </head>
 <body>
@@ -201,3 +215,4 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
 </footer>
 </body>
 </html>
+
