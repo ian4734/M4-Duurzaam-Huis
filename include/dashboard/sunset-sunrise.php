@@ -3,23 +3,13 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
 ?>
 <!DOCTYPE html>
 <html lang="nl">
-<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sunset & Sunrise</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
  
-  body {
-    font-family: system-ui, sans-serif;
-    background: #f5f5f3;
-    color: #1a1a1a;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 1rem;
-  }
+
  
   .wrap { width: 100%; max-width: 520px; }
  
@@ -84,22 +74,12 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     text-align: center;
   }
 
-  footer {
-    display:flex;
-    justify-content: center;
-    padding: 1rem;
-    align-items: center;
-  }
 
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+
+
 </style>
-</head>
-<body>
+
+
 <div class="wrap">
   <div class="cards">
     <div class="card">
@@ -213,6 +193,5 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
 <footer>
   <p> deon </p>
 </footer>
-</body>
 </html>
 
