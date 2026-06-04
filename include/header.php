@@ -1,1 +1,1 @@
-<header><h1>Dashboard</h1></header>
+<header><h1>EcoTrack</h1></header>
