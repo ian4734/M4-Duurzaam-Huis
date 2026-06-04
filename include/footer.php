@@ -1,1 +1,1 @@
-<footer></footer>
+<footer><h2>kyano, deon en Ian</h2></footer>

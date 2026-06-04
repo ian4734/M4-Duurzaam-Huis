@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php include 'include/header.php'; ?>
-    <?php include 'include/main.php'; ?>
-    <?php include 'include/footer.php'; ?>
     <?php include 'include/dashboard/sunset-sunrise.php'; ?>
+    <?php include 'include/footer.php'; ?>
 </body> 
 </html>
