@@ -2,26 +2,6 @@ header {
     background-color: #589054;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
