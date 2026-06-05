@@ -9,32 +9,34 @@
 <body>
 
 <div class="parent">
-    <div class="div1">
+    <div class="header">
         <?php include 'include/header.php'; ?>
     </div>
-    <div class="div2">
+    <div class="sidebar">
         <p>sidebar</p>
     </div>
-    <div class="div3">
+    <div class="temprature">
         <p>temprature</p>
     </div>
-    <div class="div4">
+    <div class="susetsunrise">
         <?php include 'include/dashboard/sunset-sunrise.php'; ?>
     </div>
-    <div class="div5">
+    <div class="weatherforecast">
         <p>weather forecast</p>
     </div>
-    <div class="div6">
+    <div class="zonnepanelen">
         <p>Opbrengst energie van zonnepanelen</p>
     </div>
-    <div class="div7">
+    <div class="energie">
         <p>Energie verbruik</p>
     </div>
-    <div class="div8">
+    <div class="lampen">
         <p>Huis met lampen enzo</p>
     </div>
+    <div class="footer">
+     <?php include 'include/footer.php'; ?>
+    </div>
 </div>
-    <?php include 'include/footer.php'; ?>
 </body> 
 </html>
 

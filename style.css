@@ -1,10 +1,8 @@
 header {
     background-color: #589054;
+
 }
 
-footer {
-    color: rgb(0, 0, 0);
-}
 
 
 
@@ -16,48 +14,52 @@ footer {
     gap: 8px;
 }
     
-.div1 {
+.header {
     grid-column: span 5 / span 5;
 }
 
-.div2 {
+.sidebar {
     grid-row: span 4 / span 4;
     grid-row-start: 2;
 }
 
-.div3 {
+.temprature {
     grid-row-start: 2;
 }
 
-.div4 {
+.sunsetsunrise {
     grid-column-start: 2;
     grid-row-start: 3;
 }
 
-.div5 {
+.weatherforecast {
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 2;
 }
 
-.div6 {
+.zonnepanelen {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 2;
 }
 
-.div7 {
+.energie {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 4;
 }
 
-.div8 {
+.lampen{
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-column-start: 2;
     grid-row-start: 4;
 }
         
+.footer {
+    background-color: #589054;
+   
+}
