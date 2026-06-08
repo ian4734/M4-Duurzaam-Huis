@@ -33,11 +33,9 @@
     <div class="lampen">
         <p>Huis met lampen enzo</p>
     </div>
-    <div class="footer">
-     <?php include 'include/footer.php'; ?>
-    </div>
 </div>
-</body> 
+<?php include 'include/footer.php'; ?>
+</body>
 </html>
 
 

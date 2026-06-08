@@ -1,1 +1,1 @@
-<footer><h2>kyano, Deon en Ian</h2></footer>
+<footer class="site-footer"><h2>kyano, Deon en Ian</h2></footer>

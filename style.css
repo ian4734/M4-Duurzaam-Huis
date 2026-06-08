@@ -57,7 +57,18 @@ header {
     grid-row-start: 4;
 }
         
-.footer {
-    background-color: #589054;
-    height: 50px;
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000 !important;
+    width: 100%;
+    min-height: 10vh;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+
+footer {
+    display: block;
+    background-color: #000000;
 }
