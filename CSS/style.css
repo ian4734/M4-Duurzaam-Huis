@@ -14,17 +14,25 @@ h1 {
 
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
-    padding-top: 80px;
+.main-wrapper {
+    display: flex;
+    gap: 20px; 
+    padding: 0 20px;
 }
 
 .sidebar {
-    
     background-color: #59B767;
+    width: 200px; 
+    min-height: 80vh;
+    border-radius: 10px;
+}
+
+.parent {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
 }
 
 .temprature {
