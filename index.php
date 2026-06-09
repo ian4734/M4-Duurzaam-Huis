@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard-Duurzaam</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -15,10 +15,10 @@
     <div class="sidebar">
         <p>sidebar</p>
     </div>
-    <div class="temprature">
-        <p>temprature</p>
+    <div class="temperature">
+        <?php include 'include/dashboard/buiten-temp.php'; ?>
     </div>
-    <div class="susetsunrise">
+    <div class="sunsetsunrise">
         <?php include 'include/dashboard/sunset-sunrise.php'; ?>
     </div>
     <div class="weatherforecast">
