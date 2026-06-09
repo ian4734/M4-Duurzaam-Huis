@@ -1,0 +1,1 @@
+<p>Opbrengst energie van zonnepanelen</p>
