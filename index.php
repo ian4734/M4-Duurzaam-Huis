@@ -8,10 +8,9 @@
 </head>
 <body>
 
+<div class="header"> <?php include 'include/header.php'; ?></div>
+
 <div class="parent">
-
- <div class="header"> <?php include 'include/header.php'; ?></div>
-
   <div class="sidebar"><p>sidebar</p></div>
   
     <div class="temperature">
@@ -41,9 +40,8 @@
     <div class="parent">
     </div>
 
+
 </div>
-
-
 
 <div class="parent">
     </div> <div class="footer">
