@@ -3,9 +3,6 @@ header {
 }
 
 
-
-
-
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -57,11 +54,6 @@ header {
     grid-column-start: 2;
     grid-row-start: 4;
 }
-        
-.footer {
-    background-color: #589054;
-   
-}
 
 .temperature {
     display: flex;
@@ -73,4 +65,11 @@ header {
     height: 100%;
     justify-content: space-between;
     flex-direction: column;
+}
+
+  .footer {
+    background-color: #589054;
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
 }
