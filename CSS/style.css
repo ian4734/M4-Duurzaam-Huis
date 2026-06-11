@@ -21,10 +21,12 @@ h1 {
 }
 
 .sidebar {
+    display: flex;
     background-color: #59B767;
     width: 200px; 
-    min-height: 80vh;
-    border-radius: 10px;
+    height: 100vh;
+    
+    
 }
 
 .parent {
