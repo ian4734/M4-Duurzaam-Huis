@@ -1,1 +1,1 @@
-<p>sidebar</p>
+<p>Dashboard</p>
