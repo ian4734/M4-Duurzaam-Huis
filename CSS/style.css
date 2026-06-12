@@ -9,11 +9,9 @@
     flex-shrink: 0;
 }
 
-
-.dashboard-content > * {
-    flex: 1 1 300px;
+.kyano-balaap {
+    display: flex;
 }
-
 
 .temperature {
     display: flex;
@@ -22,19 +20,7 @@
     padding: 15px;
     color: white;
     text-align: center;
-    height: 200px;
+    height: 250px;
     justify-content: space-between;
     flex-direction: column;
-}
-
-
-
-
-.widget {
-    height: 200px;
-    flex: 1 1 300px;
-    background-color: #393939;
-    border-radius: 10px;
-    padding: 15px;
-    color: white;
 }
