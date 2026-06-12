@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="buiten-temp.css">
 </head>
 <body>
-    <header class="header"> <?php include 'include/header.php'; ?></header>
+    <header <div class="darkmode"><?php include 'include/dashboard/Darkmode.php'; ?></div>
+            class="header"> <?php include 'include/header.php'; ?>      
+    </header>
 
     <?php include 'include/dashboard/sidebar.php'; ?>
     <?php include 'include/dashboard/buiten-temp.php'; ?>

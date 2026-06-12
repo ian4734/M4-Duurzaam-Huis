@@ -29,6 +29,16 @@ h1 {
     
 }
 
+<<<<<<< HEAD
+=======
+.parent {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+}
+>>>>>>> 03689cc3ba1520129a2a2ce7ac1e2f1abdb97afa
 
 
 .temperature {
@@ -53,4 +63,5 @@ h1 {
 h2 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:black;
+
 }
