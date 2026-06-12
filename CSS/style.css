@@ -1,7 +1,6 @@
 header {
     background-color: #589054;
     height: 70px;
-    margin-bottom: 60px;
 }
 
 h1 {
@@ -16,15 +15,15 @@ h1 {
 
 .main-wrapper {
     display: flex;
-    gap: 20px; 
-    padding: 0 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar {
     display: flex;
     background-color: #59B767;
     width: 200px; 
-    height: 100vh;
+    height: 200vh;
     
     
 }
@@ -34,7 +33,11 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .temprature {
@@ -90,7 +93,6 @@ h1 {
     background-color: #589054;
     height: 70px;
     width: 100%;
-    margin-top: 20px;
 }
 
 h2 {
