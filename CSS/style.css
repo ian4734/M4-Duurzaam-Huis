@@ -1,44 +1,18 @@
-header {
-    background-color: #589054;
-    height: 70px;
-    margin-bottom: 60px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: rgb(0, 0, 0);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
-
 .main-wrapper {
     display: flex;
-    gap: 20px; 
-    padding: 0 20px;
+    flex-direction: row;
+    width: 100%;
 }
 
 .sidebar {
-    display: flex;
-    background-color: #59B767;
-    width: 200px; 
-    height: 100vh;
-    
-    
+    width: 250px;
+    flex-shrink: 0;
 }
 
-<<<<<<< HEAD
-=======
-.parent {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 15px;
+
+.dashboard-content > * {
+    flex: 1 1 300px;
 }
->>>>>>> 03689cc3ba1520129a2a2ce7ac1e2f1abdb97afa
 
 
 .temperature {
@@ -48,20 +22,19 @@ h1 {
     padding: 15px;
     color: white;
     text-align: center;
-    height: 100%;
+    height: 200px;
     justify-content: space-between;
     flex-direction: column;
 }
 
-  .footer {
-    background-color: #589054;
-    height: 70px;
-    width: 100%;
-    margin-top: 20px;
-}
 
-h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:black;
 
+
+.widget {
+    height: 200px;
+    flex: 1 1 300px;
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
 }
