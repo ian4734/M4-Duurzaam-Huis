@@ -29,50 +29,7 @@ h1 {
     
 }
 
-.parent {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Pas aan naar wens */
-    grid-template-rows: repeat(4, 1fr);
-    gap: 15px;
-}
 
-.temprature {
-    grid-column: 2;
-    grid-row: 1 / span 2;
-}
-
-.sunsetsunrise {
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
-
-.weatherforecast {
-    grid-row: span 2 / span 2;
-    grid-column-start: 3;
-    grid-row-start: 2;
-}
-
-.zonnepanelen {
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 2;
-}
-
-.energie {
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 4;
-}
-
-.lampen{
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 4;
-}
 
 .temperature {
     display: flex;
