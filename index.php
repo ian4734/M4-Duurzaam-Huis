@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard-Duurzaam</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
@@ -33,9 +33,9 @@
     <div class="lampen">
         <p>Huis met lampen enzo</p>
     </div>
+    <div class="footer">
+     <?php include 'include/footer.php'; ?>
+    </div>
 </div>
-<?php include 'include/footer.php'; ?>
-</body>
+</body> 
 </html>
-
-
