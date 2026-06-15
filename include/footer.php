@@ -1,1 +1,1 @@
-<footer class="site-footer"><h2>kyano, Deon en Ian</h2></footer>
+<footer><p>&copy; 2026 EcoTrack: Ian, Kyano en Deon. All rights reserved.</p></footer>
