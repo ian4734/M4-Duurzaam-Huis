@@ -1,1 +1,3 @@
-<header><h1>EcoTrack</h1></header>
+<header>
+    <p>EcoTrack</p>
+</header>
