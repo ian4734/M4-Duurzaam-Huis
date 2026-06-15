@@ -1,16 +1,67 @@
-.main-wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+header {
+background-color: #589054;
+display: flex;
+justify-content: center;
+height: 60px;
+font-size: xx-large;
+align-items: center;
+}
+
+main {
+background-color: #F0F0EE;
+display: flex;
+height: 100vh;
+}
+
+footer {
+background-color: #589054;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+height: 60px;
 }
 
 .sidebar {
-    width: 250px;
-    flex-shrink: 0;
+background-color: #59B767;
+width: 150px;
+color: white;
+padding: 20px;
 }
 
-.kyano-balaap {
+.dashboard-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.weather-widget {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #393939; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.weather-row {
     display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #555;
+    font-size: 14px;
 }
 
 .temperature {
