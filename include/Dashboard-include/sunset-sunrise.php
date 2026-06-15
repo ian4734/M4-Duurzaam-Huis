@@ -179,7 +179,5 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     update();
   }
 </script>
-<footer>
   <p> deon </p>
-</footer>
 </html>
