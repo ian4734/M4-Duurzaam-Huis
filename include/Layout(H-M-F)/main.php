@@ -17,6 +17,7 @@
 <?php include 'include/Dashboard-include/Sun-energie.php';?>
 <?php include 'include/Dashboard-include/buiten-temp.php';?>
 <?php include 'include/Dashboard-include/sunset-sunrise.php';?>
+<?php include 'include/Dashboard-include/energieverbruik.php';?>
 
     </section>
 </main>
