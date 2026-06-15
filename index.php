@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <?php include 'Layout(H-M-F)/header.php'; ?>
-    <?php include 'Layout(H-M-F)/main.php'; ?>
-    <?php include 'Layout(H-M-F)/footer.php'; ?>
+    <?php include 'include/Layout(H-M-F)/header.php'; ?>
+    <?php include 'include/Layout(H-M-F)/main.php'; ?>
+    <?php include 'include/Layout(H-M-F)/footer.php'; ?>
 </body>
 </html>

@@ -13,7 +13,10 @@
         </nav>
     </aside>
     <section class="dashbaord-content">
-<?php include 'Dashboard-include/Weather.php'; ?>
-<?php include 'Dashboard-include/Sun-energie.php';?>
+<?php include 'include/Dashboard-include/Weather.php'; ?>
+<?php include 'include/Dashboard-include/Sun-energie.php';?>
+<?php include 'include/Dashboard-include/buiten-temp.php';?>
+<?php include 'include/Dashboard-include/sunset-sunrise.php';?>
+
     </section>
 </main>
