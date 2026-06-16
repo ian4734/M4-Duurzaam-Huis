@@ -1,11 +1,4 @@
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #f5f5f0;
-      color: #1a1a1a;
-      margin: 0;
-      padding: 2rem;
-    }
+  <style class="lampenStyle">
     h1 {
       text-align: center;
       font-size: 22px;
@@ -82,7 +75,7 @@
       justify-content: center;
       margin-bottom: 1.5rem;
     }
-    .all-btns button {
+    .all-btns  {
       font-size: 13px;
       border: 0.5px solid rgba(0,0,0,0.3);
       border-radius: 8px;
@@ -91,7 +84,7 @@
       background: transparent;
       color: #1a1a1a;
     }
-    .all-btns button:hover {
+    .all-btns :hover {
       background: #f0f0ea;
     }
   </style>
@@ -106,7 +99,7 @@
   <div class="lamp-grid" id="grid"></div>
   <p class="summary" id="summary"></p>
  
-  <script>
+  <script class="lampenScript">
     const lampen = [
       { naam: "Woonkamer", icon: "💡" },
       { naam: "Slaapkamer", icon: "🛏️" },
