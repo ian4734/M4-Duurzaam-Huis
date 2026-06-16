@@ -20,7 +20,5 @@
 <?php include 'include/Dashboard-include/energieverbruik.php';?>
 <?php include 'include/Dashboard-include/Darkmode.php';?>
 <?php include 'include/Dashboard-include/lampen.php';?>
-
-
     </section>
 </main>

@@ -1,4 +1,4 @@
-<button id="theme-toggle">Donkere modus</button>
+<button class="darkmodeButton" id="theme-toggle">Donkere modus</button>
 <p class="ian-made-darkmode">ian</p>
 
 <script>
