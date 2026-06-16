@@ -1,4 +1,5 @@
 <button id="theme-toggle">Donkere modus</button>
+<p class="ian-made-darkmode">ian</p>
 
 <script>
     const toggleButton = document.getElementById('theme-toggle');
@@ -14,8 +15,8 @@ toggleButton.addEventListener('click', () => {
   }
 });
 
-// Laad opgeslagen thema bij het opstarten
 if (localStorage.getItem('theme') === 'dark') {
   body.classList.add('dark-mode');
 }
 </script>
+

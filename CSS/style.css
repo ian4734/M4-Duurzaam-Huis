@@ -145,7 +145,6 @@ body.dark-mode #theme-toggle {
     background-color: #3d5a35;
     color: #e0e0e0;
     border: 1px solid #59B767;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -154,6 +153,24 @@ button {
     position: absolute;
     top: 20px;
     left: 50px;
+}
+
+.ian-made-weather {
+    font-size: 15px;
+    color:aliceblue;
+    position:absolute;
+    top: 330px;
+    left: 250px;
+
+}
+
+.ian-made-darkmode {
+    font-size: 15px;
+    color:aliceblue;
+    position:absolute;
+    top: 37px;
+    left:80px;
+
 }
 
 

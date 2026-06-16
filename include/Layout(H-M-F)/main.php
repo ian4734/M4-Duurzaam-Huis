@@ -18,7 +18,11 @@
 <?php include 'include/Dashboard-include/buiten-temp.php';?>
 <?php include 'include/Dashboard-include/sunset-sunrise.php';?>
 <?php include 'include/Dashboard-include/energieverbruik.php';?>
+<<<<<<< HEAD
 <?php include 'include/Dashboard-include/Darkmode.php';?>
+=======
+<?php include 'include/Dashboard-include/lampen.php';?>
+>>>>>>> 5c4c09e5b4de63ac9be724b5c54e0ec1f106c4dc
 
     </section>
 </main>
