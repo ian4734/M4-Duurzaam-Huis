@@ -9,8 +9,12 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 8px;
     margin-bottom: 1.25rem;
+    position: absolute;
+   top: 100px;
+    left: 800px;
+
   }
  
   .card {
@@ -47,7 +51,7 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
   .field label { font-size: 12px; color: #666; }
  
   .field input {
-    width: 100%;
+    width: 300px;
     padding: 8px 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -56,16 +60,36 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     color: #1a1a1a;
     outline: none;
     transition: border-color .15s;
+     position: absolute;
+    top: 300px;
+    left: 850px;
   }
  
-  .field input:focus { border-color: #888; }
+  .field input:focus { 
+    border-color: #888; 
+  }
  
   .status {
     font-size: 12px;
     color: #aaa;
     margin-top: .75rem;
     text-align: center;
+     position: absolute;
+    top: 240px;
+    left: 880px;
   }
+
+  .deon {
+     position: absolute;
+     top: 350px;
+    left: 850px;
+  }
+
+label {
+   position: absolute;
+    top: 280px;
+    left: 850px;
+}
 
 </style>
 
@@ -179,5 +203,5 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     update();
   }
 </script>
-  <p> deon </p>
+  <p class="deon"> deon </p>
 </html>

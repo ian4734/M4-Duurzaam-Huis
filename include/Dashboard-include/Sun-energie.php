@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <section class="dashboard-content">
-    <div class="chart-container" style="position: relative; width: 400px; height: 300px;">
+    <div class="chart-container" style="position: absolute; width: 400px; height: 300px;">
         <canvas id="zonnePanelenGrafiek"></canvas>
     </div>
 </section>
