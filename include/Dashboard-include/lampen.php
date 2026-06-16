@@ -96,7 +96,7 @@
     }
   </style>
 
-  <h1>Lamp Schakelaar</h1>
+  <h1 class="h1">Lamp Schakelaar</h1>
  
   <div class="all-btns">
     <button onclick="alleAan()"><i class="ti ti-sun"></i> Alle aan</button>
