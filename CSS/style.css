@@ -1,16 +1,16 @@
 header {
-background-color: #589054;
-display: flex;
-justify-content: center;
-height: 60px;
-font-size: xx-large;
-align-items: center;
+    background-color: #589054;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: xx-large;
+    padding: 0 1.5rem;
 }
 
 main {
 background-color: #F0F0EE;
 display: flex;
-height: 120vh;
 }
 
 footer {
@@ -24,14 +24,13 @@ height: 60px;
 
 .sidebar {
 background-color: #59B767;
-width: 200px;
+width: 220px;
 color: white;
 padding: 20px;
 }
 
 .dashboard-content {
     flex: 1;
-    padding: 20px;
 }
 
 .sidebar ul {
@@ -56,10 +55,8 @@ h4 {
 }
 
 .weather-widget {
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: #393939; 
-    color: white;
+    margin:20px;
+    background-color: #fff; 
     padding: 20px;
     border-radius: 10px;
     width: 250px;
@@ -77,20 +74,26 @@ h4 {
 
 .temperature {
     display: flex;
-    background-color: #393939;
+    background-color: #fff;
     border-radius: 10px;
-    padding: 15px;
-    color: white;
     text-align: center;
+    width: 300px;
     height: 250px;
-    justify-content: space-between;
     flex-direction: column;
-    position: absolute;
-    left: 500px;
-    bottom: 400px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
+.tempTest {
+    margin: 15px;
+}
 /* Dark-Mode (Ian) */
+
+.darkmodeButton {
+    background-color: #589054;
+}
+
 body.dark-mode header {
     background-color: #2d4a28;
     color: #e0e0e0;
@@ -123,7 +126,7 @@ body.dark-mode .dashboard-content {
 body.dark-mode .weather-widget {
     background-color: #2a2a2a;
     color: #e0e0e0;
-    border: 1px solid #444;
+    border: 1px solid #fff;
 }
 
 body.dark-mode .weather-row {
@@ -133,7 +136,7 @@ body.dark-mode .weather-row {
 body.dark-mode .temperature {
     background-color: #2a2a2a;
     color: #e0e0e0;
-    border: 1px solid #444;
+    border: 1px solid #fff;
 }
 
 body.dark-mode h3,
@@ -144,30 +147,102 @@ body.dark-mode h4 {
 body.dark-mode #theme-toggle {
     background-color: #3d5a35;
     color: #e0e0e0;
-    border: 1px solid #59B767;
-    border-radius: 5px;
     cursor: pointer;
 }
 
 .darkmodeButton {
-    position: absolute;
-    top: 20px;
-    left: 50px;
+    position: relative;
 }
 
-.ian-made-weather {
-    font-size: 15px;
-    color:aliceblue;
-    position:absolute;
-    top: 330px;
-    left: 250px;
-
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+.div1 {
+    grid-row: span 1 / span 1;
 }
 
-.ian-made-darkmode {
-    font-size: 15px;
-    color:aliceblue;
-    position:absolute;
-    top: 37px;
-    left:80px;
+.div2 {
+    grid-row: span 1 / span 1;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 1 / span 1;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.ian{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kyano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DarkIan {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+}
+
+header > p {
+    flex: 1;
+    text-align: center;
+}
+
+body.dark-mode .IanDark {
+    background-color: #2d4a28;
+}
+
+body.dark-mode .card {
+    background-color: #393939;
+}
+
+body.dark-mode .field input {
+    background-color: #393939;
+    color: #e0e0e0
+}
+
+body.dark-mode .lamp-card {
+    background-color: #393939;
+    border: #fff solid 1px;
+}
+
+body.dark-mode .lamp-name {
+    color: #e0e0e0
+}
+
+body.dark-mode .card-time {
+    color:  #e0e0e0;
 }

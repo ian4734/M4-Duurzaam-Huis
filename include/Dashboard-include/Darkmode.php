@@ -1,6 +1,4 @@
 <button class="darkmodeButton" id="theme-toggle">Donkere modus</button>
-<p class="ian-made-darkmode">ian</p>
-
 <script>
     const toggleButton = document.getElementById('theme-toggle');
 const body = document.body;

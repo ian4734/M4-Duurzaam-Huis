@@ -1,5 +1,5 @@
-  <style class="lampenStyle">
-    h1 {
+  <style>
+    .lampenH1 {
       text-align: center;
       font-size: 22px;
       font-weight: 500;
@@ -89,7 +89,7 @@
     }
   </style>
 
-  <h1 class="h1">Lamp Schakelaar</h1>
+  <h1 class="lampenH1">Jouw Lampen</h1>
  
   <div class="all-btns">
     <button onclick="alleAan()"><i class="ti ti-sun"></i> Alle aan</button>
@@ -131,10 +131,13 @@
     function alleUit()  { staat.fill(false); render(); }
  
     render();
+
   </script>
-<p>
+    <div class="DeonAndKyano">
+    <p>
   Ik kan via het dashboard een lamp, in het huisje, aan of uit zetten. Heeft Deon gedaan
 </p>
 <p>
   Ik kan op het dashboard zien of een lamp, in het huisje, aan of uit is. Heeft Kyano gedaan
 </p>
+    </div>

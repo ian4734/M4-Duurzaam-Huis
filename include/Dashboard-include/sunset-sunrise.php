@@ -2,7 +2,7 @@
 $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
 ?>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0px; padding: 0px; }
 
   .wrap { width: 100%; max-width: 520px; }
  
@@ -11,10 +11,8 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     margin-bottom: 1.25rem;
-    position: absolute;
-   top: 100px;
-    left: 800px;
-
+    margin-top: 20px;
+    margin-left: 20px;
   }
  
   .card {
@@ -60,13 +58,19 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     color: #1a1a1a;
     outline: none;
     transition: border-color .15s;
-     position: absolute;
-    top: 300px;
-    left: 850px;
+}
+    .field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
  
   .field input:focus { 
     border-color: #888; 
+
   }
  
   .status {
@@ -74,51 +78,38 @@ $date = isset($_GET['date']) ? $_GET['date'] : date('Y-m-d');
     color: #aaa;
     margin-top: .75rem;
     text-align: center;
-     position: absolute;
-    top: 240px;
-    left: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
-  .deon {
-     position: absolute;
-     top: 350px;
-    left: 850px;
-  }
-
-label {
-   position: absolute;
-    top: 280px;
-    left: 850px;
-}
 
 </style>
 
-<div class="wrap">
-  <div class="cards">
-    <div class="card">
+  <div class="wrap">
+    <div class="cards">
+      <div class="card">
       <div class="card-label">Sunrise</div>
       <div class="card-time" id="s-rise">--:--</div>
       <div class="card-sub" id="s-rise-sub">&nbsp;</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Day length</div>
+        <div class="card-time" id="s-len">--</div>
+        <div class="card-sub">hours of daylight</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Sunset</div>
+        <div class="card-time" id="s-set">--:--</div>
+        <div class="card-sub">&nbsp;</div>
+      </div>
     </div>
-    <div class="card">
-      <div class="card-label">Day length</div>
-      <div class="card-time" id="s-len">--</div>
-      <div class="card-sub">hours of daylight</div>
+  
+    <div class="field">
+      <input type="date" id="date" value="<?= htmlspecialchars($date) ?>">
     </div>
-    <div class="card">
-      <div class="card-label">Sunset</div>
-      <div class="card-time" id="s-set">--:--</div>
-      <div class="card-sub">&nbsp;</div>
-    </div>
+    <div class="status" id="status">Locatie ophalen...</div>
   </div>
- 
-  <div class="field">
-    <label>Datum</label>
-    <input type="date" id="date" value="<?= htmlspecialchars($date) ?>">
-  </div>
-  <div class="status" id="status">Locatie ophalen...</div>
-</div>
- 
+
 <script>
   const $ = id => document.getElementById(id);
   let LAT = null, LON = null, TZ = null;
@@ -202,6 +193,8 @@ label {
     $('status').textContent = 'locatie niet beschikbaar — Amsterdam gebruikt';
     update();
   }
+
 </script>
-  <p class="deon"> deon </p>
-</html>
+    <div class="deon">
+    <p> Deon </p>
+  </div>

@@ -24,3 +24,6 @@ const zonnePanelenGrafiek = new Chart(ctx1, {
     }
 });
 </script>
+<div class="ian">
+    <p>Ian</p>
+</div>

@@ -24,4 +24,6 @@ const energieverbuik = new Chart(ctx2, {
     }
 });
 </script>
-<p> deon </p>
+<div class="deon">
+<p> Deon </p>
+</div>

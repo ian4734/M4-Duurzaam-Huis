@@ -14,8 +14,12 @@ $temperature = $data['current']['temperature_2m'];
 
 
 <div class="temperature">
-    <h2>Buiten temperatuur</h2>
-    <p><?php echo $temperature; ?>°C</p>
-    <h2>Binnen temperatuur</h2>
-    <p>22°C</p>
+    <h2 class="tempTest">Buiten temperatuur</h2>
+    <p class="tempTest"><?php echo $temperature; ?>°C</p>
+    <h2 class="tempTest">Binnen temperatuur</h2>
+    <pc class="tempTest">22°C</p>
+</div>
+
+<div class="kyano">
+    <p>kyano</p>
 </div>
