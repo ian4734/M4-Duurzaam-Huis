@@ -246,3 +246,9 @@ body.dark-mode .lamp-name {
 body.dark-mode .card-time {
     color:  #e0e0e0;
 }
+
+.logo {
+    height: 90px;
+    width: auto;
+    margin-right: 10px;
+}
